@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: var(--typeface); */
+  text-transform: capitalize;
+  color: #f4f3ee;
+}
+
+body {
+  /* background-color: rgb(2, 4, 32);
+  background-size: 64px 64px;
+  background-image: linear-gradient(
+      to right,
+      rgb(2, 4, 64) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(1, 2, 64) 1px, transparent 1px);
+  background-repeat: repeat; */
+  background: rgb(60, 9, 108);
+  background: linear-gradient(
+    160deg,
+    rgba(60, 9, 108, 1) 0%,
+    rgba(94, 84, 142, 1) 40%,
+    rgba(159, 134, 192, 1) 100%
+  );
+  /* Disable user text select */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
